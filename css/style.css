@@ -1,6 +1,6 @@
-/* The original desing uses Gotham and Helvetica Neue */
-/* For this project we are using Montserrat instead of Gotham because it looks similar and its open source */
+/* The original desing uses Gotham and Helvetica Neue. For this project we are using Montserrat instead of Gotham because it looks similar and its open source */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
 /* And using Helvetica instead of Helvetica Neue */
 
 /* General rules */
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
@@ -48,7 +48,7 @@ nav {
 }
 
 .home {
-  color: #D35266;
+  color: #d35266;
 }
 
 .redeem {
@@ -57,7 +57,7 @@ nav {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0 8px;
-  background-color: #D35266;
+  background-color: #d35266;
   border-radius: 3px;
   color: white;
 }
@@ -72,14 +72,14 @@ nav {
 
 /* responsive adjustments */
 
-@media(max-width: 576px){
+@media (max-width: 576px) {
   /* navigation bar */
   nav {
     justify-content: space-between;
   }
 }
 
-@media(min-width: 768px){
+@media (min-width: 768px) {
   /* navigation bar */
   nav {
     padding-left: 10%;
@@ -92,5 +92,4 @@ nav {
   .redeem {
     display: block;
   }
-  
 }
