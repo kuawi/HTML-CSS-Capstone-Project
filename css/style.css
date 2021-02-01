@@ -1,3 +1,8 @@
+/* The original desing uses Gotham and Helvetica Neue */
+/* For this project we are using Montserrat instead of Gotham because it looks similar and its open source */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+/* And using Helvetica instead of Helvetica Neue */
+
 /* General rules */
 
 * {
