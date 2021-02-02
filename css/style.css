@@ -90,6 +90,7 @@ nav {
 /* header rules */
 
 header {
+  display: none;
   background-color: #d35266;
   background-image: url("/src/header-logo.svg");
   background-size: 300px 300px;
@@ -97,6 +98,21 @@ header {
   background-repeat: no-repeat;
   padding: 55px 8px 40px 8px;
   color: white;
+}
+
+.mobile-search-wrap{
+  background-color: #d35266;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#mobile-search-box {
+  width: 75vw;
+}
+
+#mobile-search-btn {
+  width: 20vw;
+  text-align: center;
 }
 
 .brand {
@@ -115,8 +131,19 @@ form {
   justify-content: center;
 }
 
-#search-btn {
-  background-color: black;
+select,
+input,
+#search-btn,
+#mobile-search-btn {
+  font: 500 14px/14px Helvetica, sans-serif;
+  height: 50px;
+  margin-right: 2px;
+}
+
+#search-btn,
+#mobile-search-btn {
+  padding-top: 18px;
+  background-color: #383838;
   color: #888;
 }
 
@@ -347,6 +374,18 @@ hr {
   .redeem {
     display: block;
   }
+
+  /* header */
+
+  header {
+    display: block;
+  }
+
+  .mobile-search-wrap{
+    display: none;
+  }
+
+  /* hot ad */
 
   .hot-ad-wrap {
     display: grid;
