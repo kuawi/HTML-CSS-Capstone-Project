@@ -21,8 +21,25 @@ a {
   color: inherit;
 }
 
+button {
+  height: 30px;
+  padding: 0 8px;
+  background-color: #d35266;
+  border: none;
+  border-radius: 1px;
+  color: white;
+}
+
 li {
   list-style-type: none;
+}
+
+.text-pink {
+  color: #d35266;
+}
+
+.m-adjust {
+  margin: 5px 5%;
 }
 
 /* navigation bar */
@@ -59,13 +76,6 @@ nav {
 
 .redeem {
   display: none;
-  line-height: 24px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 0 8px;
-  background-color: #d35266;
-  border-radius: 3px;
-  color: white;
 }
 
 .nav-link {
@@ -102,6 +112,85 @@ h1 {
 form {
   display: flex;
   justify-content: center;
+}
+
+/* hot ads rules start */
+
+.hot-ad-wrap {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  padding-bottom: 20px;
+}
+
+.ha-arrow {
+  height: 40px;
+  width: 40px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid #888;
+  border-radius: 50%;
+}
+
+.left-arrow-pink {
+  background-image: url("/src/left-arrow-pink.svg");
+  background-position: 40% 50%;
+}
+
+.right-arrow-pink {
+  background-image: url("/src/right-arrow-pink.svg");
+  background-position: 60% 50%;
+}
+
+.hot-ad {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+
+.ha-title {
+  padding-top: 20px;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.hot-ad-text {
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-wrap {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#ha-btn-left{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 3px solid #bf4053;
+}
+
+#ha-btn-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.purchase-btn {
+  display: flex;
+  align-items: center;
+}
+
+.purchase-icon {
+  height: 16px;
+  width: 16px;
+  background-image: url("/src/cart-white.svg");
+  background-size: 16px 16px; 
+  margin-right: 5px;
 }
 
 /* main section */
@@ -141,7 +230,6 @@ section {
 h3 {
   font: 700 18px/18px Montserrat, sans-serif;
   width: 90%;
-  margin: 5px 5%;
 }
 
 .thumbnail {
@@ -155,7 +243,6 @@ h3 {
   font-size: 13px;
   line-height: 13px;
   width: 90%;
-  margin: 5px 5%;
 }
 
 .author-link {
@@ -163,7 +250,7 @@ h3 {
 }
 
 .author-link:hover {
-  color: #d3495d;
+  color: black;
 }
 
 .price {
@@ -172,7 +259,6 @@ h3 {
   font-weight: 600;
   text-align: right;
   width: 90%;
-  margin: 5px 5%;
 }
 
 /* footer section */
@@ -219,7 +305,7 @@ h4 {
   color: black;
 }
 
-p {
+footer p {
   text-align: justify;
 }
 
