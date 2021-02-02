@@ -118,7 +118,7 @@ form {
 
 .hot-ad-wrap {
   background-color: white;
-  display: grid;
+  display: none;
   grid-template-columns: 1fr 8fr 1fr;
   padding-bottom: 20px;
 }
@@ -340,5 +340,9 @@ hr {
 
   .redeem {
     display: block;
+  }
+
+  .hot-ad-wrap {
+    display: grid;
   }
 }
