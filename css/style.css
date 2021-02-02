@@ -21,7 +21,8 @@ a {
   color: inherit;
 }
 
-button {
+button,
+#search-btn {
   height: 30px;
   padding: 0 8px;
   background-color: #d35266;
@@ -112,6 +113,11 @@ h1 {
 form {
   display: flex;
   justify-content: center;
+}
+
+#search-btn {
+  background-color: black;
+  color: #888;
 }
 
 /* hot ads rules start */
