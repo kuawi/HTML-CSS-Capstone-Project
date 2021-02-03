@@ -35,6 +35,10 @@ li {
   list-style-type: none;
 }
 
+.hidden-on-mobile {
+  display: none;
+}
+
 .text-pink {
   color: #d35266;
 }
@@ -189,7 +193,7 @@ input,
   grid-area: 1 / 1 / 2 / 3;
 }
 
-.hot-ad-text {
+.description {
   font-size: 13px;
   line-height: 15px;
   margin-top: 10px;
@@ -354,6 +358,8 @@ hr {
 
 /* search results page */
 
+  /* check boxex */
+
 .search-options {
   display: flex;
 }
@@ -378,6 +384,32 @@ h5,
 
 .search-options label {
   padding-left: 3px;
+}
+
+  /* search results (cards) */
+
+.search-result {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #888;
+}
+
+.sr-info {
+  position: relative;
+  height: 100%;
+}
+
+.sr-title {
+  margin-bottom: 20px;
+}
+
+.sr-price {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
 
 /* responsive adjustments */
