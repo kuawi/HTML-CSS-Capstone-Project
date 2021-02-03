@@ -252,7 +252,7 @@ main {
 }
 
 h2 {
-  font: 700 24px/24px Montserrat, sans-serif;
+  font: 500 24px/24px Montserrat, sans-serif;
   padding-left: 5px;
 }
 
@@ -267,7 +267,7 @@ section {
 }
 
 h3 {
-  font: 700 18px/18px Montserrat, sans-serif;
+  font: 500 18px/18px Montserrat, sans-serif;
   width: 90%;
 }
 
