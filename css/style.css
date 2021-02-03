@@ -530,6 +530,8 @@ h5,
   .search-options {
     display: block;
     overflow: hidden;
+    border-right: 1px solid #888;
+
   }
 
   .search-result,
@@ -538,7 +540,6 @@ h5,
   }
 
   .search-result {
-    border-left: 1px solid #888;
     border-bottom: none;
     margin-bottom: 15px;
   }
@@ -553,4 +554,5 @@ h5,
     max-width: 300px;
     max-height: 300px;
     margin: 0 0 0 30%;
+  }
 }
