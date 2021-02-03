@@ -2,8 +2,7 @@
 
 # HTML and CSS Capstone Project
 
-> This project is about building a website following [this design](https://www.behance.net/gallery/24796463/ZATTIX) but choosing a different topic, using customized content.
-The choosen topic was an audio book store, for that, the content of [this websie](https://www.audiobooks.com/) was used. 
+> This project is about building a website following [this design](https://www.behance.net/gallery/24796463/ZATTIX) but choosing a thematic and using customized content. The thematic chosen was an audio book store, for that, the content of this [website](https://www.audiobooks.com) was used.
 
 ## Built With
 
@@ -32,4 +31,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENSE.txt) licensed.
+This project is [MIT](https://github.com/kuawi/HTML-CSS-Capstone-Project/blob/developing/LICENSE) licensed.
