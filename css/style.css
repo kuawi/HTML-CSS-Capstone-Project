@@ -73,7 +73,7 @@ nav {
   height: 33px;
   width: 33px;
   margin: 10px 5px;
-  background-image: url("/src/nav-logo.svg");
+  background-image: url("src/nav-logo.svg");
   background-size: contain;
 }
 
@@ -98,7 +98,7 @@ nav {
 header {
   display: none;
   background-color: #d35266;
-  background-image: url("/src/header-logo.svg");
+  background-image: url("src/header-logo.svg");
   background-size: 300px 300px;
   background-position: 20% 50%;
   background-repeat: no-repeat;
@@ -174,12 +174,12 @@ input,
 }
 
 .left-arrow-pink {
-  background-image: url("/src/left-arrow-pink.svg");
+  background-image: url("src/left-arrow-pink.svg");
   background-position: 40% 50%;
 }
 
 .right-arrow-pink {
-  background-image: url("/src/right-arrow-pink.svg");
+  background-image: url("src/right-arrow-pink.svg");
   background-position: 60% 50%;
 }
 
@@ -227,7 +227,7 @@ input,
 .purchase-icon {
   height: 16px;
   width: 16px;
-  background-image: url("/src/cart-white.svg");
+  background-image: url("src/cart-white.svg");
   background-size: 16px 16px;
   margin-right: 5px;
 }
@@ -247,7 +247,7 @@ main {
 .title-icon {
   height: 20px;
   width: 20px;
-  background-image: url("/src/books.svg");
+  background-image: url("src/books.svg");
   background-size: contain;
 }
 
@@ -323,7 +323,7 @@ footer {
   height: 33px;
   width: 33px;
   margin: 10px 5px;
-  background-image: url("/src/footer-logo.svg");
+  background-image: url("src/footer-logo.svg");
   background-size: contain;
 }
 
