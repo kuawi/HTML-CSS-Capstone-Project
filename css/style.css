@@ -105,7 +105,7 @@ header {
   color: white;
 }
 
-.mobile-search-wrap{
+.mobile-search-wrap {
   background-color: #d35266;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -207,7 +207,7 @@ input,
   align-items: center;
 }
 
-#ha-btn-left{
+#ha-btn-left {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-right: 3px solid #bf4053;
@@ -227,7 +227,7 @@ input,
   height: 16px;
   width: 16px;
   background-image: url("/src/cart-white.svg");
-  background-size: 16px 16px; 
+  background-size: 16px 16px;
   margin-right: 5px;
 }
 
@@ -359,7 +359,7 @@ hr {
 
 /* search results page */
 
-  /* header for search results */
+/* header for search results */
 
 header.sr-p-e {
   padding: 5px 8px 5px 8px;
@@ -379,7 +379,7 @@ h1.sr-p-e {
   justify-content: flex-start;
 }
 
-  /* check boxex */
+/* check boxex */
 
 .search-options {
   display: flex;
@@ -409,7 +409,7 @@ h5,
   padding-left: 3px;
 }
 
-  /* search results (cards) */
+/* search results (cards) */
 
 .search-result {
   display: grid;
@@ -462,7 +462,7 @@ h5,
     display: block;
   }
 
-  .mobile-search-wrap{
+  .mobile-search-wrap {
     display: none;
   }
 
