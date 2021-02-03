@@ -22,6 +22,7 @@ a {
 }
 
 button,
+.btn,
 #search-btn {
   height: 30px;
   padding: 0 8px;
@@ -80,8 +81,8 @@ nav {
   color: #d35266;
 }
 
-.redeem {
-  display: none;
+#redeem {
+  line-height: 33px;
 }
 
 .nav-link {
