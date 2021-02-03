@@ -382,7 +382,7 @@ h1.sr-p-e {
 .search-options {
   display: flex;
   justify-content: space-around;
-  padding: 5px 8px 5px 8px;
+  margin: 5px 8px 5px 8px;
 }
 
 h5,
@@ -526,4 +526,31 @@ h5,
   .right-arrow-pink {
     grid-column: 4 / 5;
   }
+
+  .search-options {
+    display: block;
+    overflow: hidden;
+  }
+
+  .search-result,
+  .sr-info {
+    max-height: 300px;
+  }
+
+  .search-result {
+    border-left: 1px solid #888;
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+
+  .sr-main-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 20px
+  }
+
+  .sr-img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 0 0 30%;
 }
