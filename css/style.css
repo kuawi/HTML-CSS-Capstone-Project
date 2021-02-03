@@ -443,6 +443,10 @@ h5,
     display: block;
   }
 
+  .only-on-mobile {
+    display: none;
+  }
+
   /* navigation bar */
   nav {
     justify-content: flex-start;
@@ -471,5 +475,11 @@ h5,
 
   .hot-ad-wrap {
     display: grid;
+  }
+
+  /* main rules */
+
+  section {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
