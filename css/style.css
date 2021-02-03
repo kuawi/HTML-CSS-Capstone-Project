@@ -51,6 +51,7 @@ li {
 
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 48px;
   background-color: #383838;
@@ -436,13 +437,6 @@ h5,
 
 /* responsive adjustments */
 
-@media (max-width: 576px) {
-  /* navigation bar */
-  nav {
-    justify-content: space-between;
-  }
-}
-
 @media (min-width: 768px) {
   .hidden-on-mobile {
     display: block;
@@ -450,6 +444,7 @@ h5,
 
   /* navigation bar */
   nav {
+    justify-content: flex-start;
     padding-left: 7%;
   }
 
