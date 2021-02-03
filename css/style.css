@@ -126,7 +126,7 @@ h1 {
   margin: 0 0 35px 0;
 }
 
-form {
+.search-form {
   display: flex;
   justify-content: center;
 }
@@ -350,6 +350,34 @@ hr {
 #copyright {
   text-align: center;
   padding-bottom: 15px;
+}
+
+/* search results page */
+
+.search-options {
+  display: flex;
+}
+
+h5,
+.search-options ul {
+  border-bottom: 1px solid #888;
+  padding: 5px 0;
+}
+
+.search-options ul {
+  width: 50vw;
+}
+
+.search-options li {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 13px;
+  height: 20px;
+}
+
+.search-options label {
+  padding-left: 3px;
 }
 
 /* responsive adjustments */
