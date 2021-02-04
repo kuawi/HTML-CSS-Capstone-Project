@@ -4,6 +4,8 @@
 
 > This project is about building a website following [this design](https://www.behance.net/gallery/24796463/ZATTIX) but choosing a thematic and using customized content. The thematic chosen was an audio book store, for that, the content of this [website](https://www.audiobooks.com) was used.
 
+**Here you can see a [video](https://www.loom.com/share/e138112e182d496b850785ce4523dacc) with an explanation a little more detailed about this project.**
+
 ## Built With
 
 - HTML
