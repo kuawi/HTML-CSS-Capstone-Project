@@ -492,16 +492,16 @@ h5,
     padding-bottom: 0;
   }
 
-  #footer-nav {
+  .footer-nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  #footer-info {
+  .footer-info {
     grid-area: 1 / 1 / 2 / 2;
   }
 
-  #copyright {
+  .copyright {
     grid-area: 2 / 1 / 3 / 3;
   }
 }
