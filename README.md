@@ -6,6 +6,8 @@
 
 **Here you can see a [video](https://www.loom.com/share/e138112e182d496b850785ce4523dacc) with an explanation a little more detailed about this project.**
 
+![screenshot](./src/screenshot.png)
+
 ## Built With
 
 - HTML
@@ -20,6 +22,8 @@ You can see the [live demo here](https://kuawi.github.io/HTML-CSS-Capstone-Proje
 👤 **Author**
 
 - GitHub: [@kuawi](https://github.com/kuawi)
+- Twitter: [@jllozano_mx](https://twitter.com/jllozano_mx)
+- LinkedIn: [Jose L. Lozano](https://www.linkedin.com/in/jose-luis-lozano-9a94191bb/)
 
 
 ## Show your support
