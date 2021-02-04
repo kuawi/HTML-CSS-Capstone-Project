@@ -23,7 +23,7 @@ a {
 
 button,
 .btn,
-#search-btn {
+.search-btn {
   height: 30px;
   padding: 0 8px;
   background-color: #d35266;
@@ -81,7 +81,7 @@ nav {
   color: #d35266;
 }
 
-#redeem {
+.redeem {
   line-height: 33px;
 }
 
@@ -112,11 +112,11 @@ header {
   padding-bottom: 8px;
 }
 
-#mobile-search-box {
+.mobile-search-box {
   width: 75vw;
 }
 
-#mobile-search-btn {
+.mobile-search-btn {
   width: 20vw;
   text-align: center;
 }
@@ -139,15 +139,15 @@ h1.main-p-e {
 
 select,
 input,
-#search-btn,
-#mobile-search-btn {
+.search-btn,
+.mobile-search-btn {
   font: 500 14px/14px Helvetica, sans-serif;
   height: 50px;
   margin-right: 2px;
 }
 
-#search-btn,
-#mobile-search-btn {
+.search-btn,
+.mobile-search-btn {
   padding-top: 18px;
   background-color: #383838;
   color: #888;
@@ -208,13 +208,13 @@ input,
   align-items: center;
 }
 
-#ha-btn-left {
+.ha-btn-left {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-right: 3px solid #bf4053;
 }
 
-#ha-btn-right {
+.ha-btn-right {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -348,7 +348,7 @@ footer p {
   text-align: justify;
 }
 
-#copyright {
+.copyright {
   text-align: center;
   padding-bottom: 10px;
   padding-top: 10px;
