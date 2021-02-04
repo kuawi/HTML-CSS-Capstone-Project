@@ -63,6 +63,7 @@ nav {
 
 .nav-logo-container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   font-size: 16px;
   font-weight: 600;
