@@ -528,7 +528,8 @@ h5,
   }
 
   .search-options {
-    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
     overflow: hidden;
     border-right: 1px solid #888;
   }
