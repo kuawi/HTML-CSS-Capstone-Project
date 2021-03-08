@@ -1,0 +1,559 @@
+/* The original desing uses Gotham and Helvetica Neue. For this project we are using Montserrat instead of Gotham because it looks similar and its open source */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+/* And using Helvetica instead of Helvetica Neue */
+
+/* General rules */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #eee;
+  color: #888;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+.btn,
+.search-btn {
+  height: 30px;
+  padding: 0 8px;
+  background-color: #d35266;
+  border: none;
+  border-radius: 1px;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hidden-on-mobile {
+  display: none;
+}
+
+.text-pink {
+  color: #d35266;
+}
+
+.m-adjust {
+  margin: 5px 5%;
+}
+
+/* navigation bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  background-color: #383838;
+  color: #888;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-logo-svg {
+  height: 33px;
+  width: 33px;
+  margin: 10px 5px;
+  background-image: url(../src/nav-logo.svg);
+  background-size: contain;
+}
+
+.home {
+  color: #d35266;
+}
+
+.redeem {
+  line-height: 33px;
+}
+
+.nav-link {
+  margin-right: 8px;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/* header rules */
+
+header {
+  display: none;
+  background-color: #d35266;
+  background-image: url(../src/header-logo.svg);
+  background-size: 300px 300px;
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+  padding: 55px 8px 40px 8px;
+  color: white;
+}
+
+.mobile-search-wrap {
+  background-color: #d35266;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mobile-search-box {
+  width: 75vw;
+}
+
+.mobile-search-btn {
+  width: 20vw;
+  text-align: center;
+}
+
+.brand.main-p-e {
+  font: 700 48px/48px Montserrat, sans-serif;
+  text-align: center;
+}
+
+h1.main-p-e {
+  font: 500 26px/26px Montserrat, sans-serif;
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+select,
+input,
+.search-btn,
+.mobile-search-btn {
+  font: 500 14px/14px Helvetica, sans-serif;
+  height: 50px;
+  margin-right: 2px;
+}
+
+.search-btn,
+.mobile-search-btn {
+  padding-top: 18px;
+  background-color: #383838;
+  color: #888;
+}
+
+/* hot ads rules start */
+
+.hot-ad-wrap {
+  background-color: white;
+  display: none;
+  grid-template-columns: 1fr 8fr 1fr;
+  padding-bottom: 20px;
+}
+
+.ha-arrow {
+  height: 40px;
+  width: 40px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid #888;
+  border-radius: 50%;
+}
+
+.left-arrow-pink {
+  background-image: url(../src/left-arrow-pink.svg);
+  background-position: 40% 50%;
+}
+
+.right-arrow-pink {
+  background-image: url(../src/right-arrow-pink.svg);
+  background-position: 60% 50%;
+}
+
+.hot-ad {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+
+.ha-title {
+  padding-top: 20px;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-wrap {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.ha-btn-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 3px solid #bf4053;
+}
+
+.ha-btn-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.purchase-btn {
+  display: flex;
+  align-items: center;
+}
+
+.purchase-icon {
+  height: 16px;
+  width: 16px;
+  background-image: url(../src/cart-white.svg);
+  background-size: 16px 16px;
+  margin-right: 5px;
+}
+
+/* main section */
+
+main {
+  margin: 15px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px -5px;
+}
+
+.title-icon {
+  height: 20px;
+  width: 20px;
+  background-image: url(../src/books.svg);
+  background-size: contain;
+}
+
+h2 {
+  font: 500 24px/24px Montserrat, sans-serif;
+  padding-left: 5px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+}
+
+h3 {
+  font: 500 18px/18px Montserrat, sans-serif;
+  width: 90%;
+}
+
+.thumbnail {
+  width: 90%;
+  height: auto;
+  margin: 3% 5%;
+}
+
+.author,
+.duration {
+  font-size: 13px;
+  line-height: 13px;
+  width: 90%;
+}
+
+.author-link {
+  color: #d35266;
+}
+
+.author-link:hover {
+  color: black;
+}
+
+.price {
+  color: #d35266;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: right;
+  width: 90%;
+}
+
+/* footer section */
+
+footer {
+  background-color: white;
+  color: #888;
+  font-size: 13px;
+  padding: 10px 15% 0 15%;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+}
+
+.footer-logo-svg {
+  height: 33px;
+  width: 33px;
+  margin: 10px 5px;
+  background-image: url(../src/footer-logo.svg);
+  background-size: contain;
+}
+
+.footer-link-container {
+  margin: 10px auto;
+}
+
+h4 {
+  color: #d35266;
+  line-height: 13px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d35266;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+footer p {
+  text-align: justify;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bbb;
+}
+
+/* below start rules that affect only the search results page */
+
+/* header for search results */
+
+header.sr-p-e {
+  padding: 5px 8px 5px 8px;
+}
+
+.brand.sr-p-e {
+  font: 700 30px/30px Montserrat, sans-serif;
+}
+
+h1.sr-p-e {
+  font: 500 26px/26px Montserrat, sans-serif;
+  margin: 0 0 15px 0;
+}
+
+.search-form.sr-p-e {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* check boxex */
+
+.search-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 8px 5px 8px;
+}
+
+h5,
+.search-options ul {
+  border-bottom: 1px solid #888;
+  padding: 5px 0;
+}
+
+.search-options ul {
+  width: 45vw;
+}
+
+.search-options li {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 13px;
+  height: 20px;
+}
+
+.search-options label {
+  padding-left: 3px;
+}
+
+/* search results (cards) */
+
+.search-result {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: flex-start;
+  margin: 10px 8px;
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid #888;
+}
+
+.sr-info {
+  position: relative;
+  height: 100%;
+}
+
+.sr-title {
+  margin-bottom: 20px;
+}
+
+.sr-price {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+/* responsive adjustments */
+
+@media (min-width: 768px) {
+  .hidden-on-mobile {
+    display: block;
+  }
+
+  .only-on-mobile {
+    display: none;
+  }
+
+  /* navigation bar */
+  nav {
+    justify-content: flex-start;
+    padding-left: 7%;
+  }
+
+  .nav-link {
+    margin-right: 3%;
+  }
+
+  .redeem {
+    display: block;
+  }
+
+  /* header */
+
+  header {
+    display: block;
+  }
+
+  .mobile-search-wrap {
+    display: none;
+  }
+
+  /* hot ad */
+
+  .hot-ad-wrap {
+    display: grid;
+  }
+
+  /* main rules */
+
+  section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* footer */
+
+  footer {
+    display: grid;
+    grid-template-rows: 90% 10%;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-info {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .copyright {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    margin: 15px auto;
+    max-width: 1000px;
+  }
+
+  .hot-ad-wrap {
+    grid-template-columns: 20% 10% 40% 10% 20%;
+  }
+
+  .left-arrow-pink {
+    grid-column: 2 / 3;
+  }
+
+  .hot-ad {
+    grid-column: 3 / 4;
+  }
+
+  .right-arrow-pink {
+    grid-column: 4 / 5;
+  }
+
+  .search-options {
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    border-right: 1px solid #888;
+  }
+
+  .search-result,
+  .sr-info {
+    max-height: 300px;
+  }
+
+  .search-result {
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+
+  .sr-main-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 20px;
+  }
+
+  .sr-img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 0 0 30%;
+  }
+}

@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Audio Book Store</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo-container nav-link">
+        <a href="#">ABstore</a>
+        <div class="nav-logo-svg"></div>
+      </div>
+      <div class="home nav-link"><a href="#">home</a></div>
+      <div class="nav-link"><a href="#">collection</a></div>
+      <div class="nav-link"><a href="#">purchase list</a></div>
+      <div class="btn hidden-on-mobile nav-link"><a href="#" class="redeem">REDEEM CODE</a></div>
+    </nav>
+    <header>
+      <div class="brand main-p-e">ABSTORE</div>
+      <h1 class="main-p-e">Buying Audio Books Couldn't be Simpler than this!</h1>
+      <form class="search-form">
+        <select>
+          <option value="0">All topics</option>
+          <option value="1">Best Sellers</option>
+          <option value="2">Fiction & Literature</option>
+          <option value="3">Science & Technology</option>
+        </select>
+        <input type="text" placeholder="What do you search for?">
+        <input type="text" placeholder="Search">
+        <a href="search-results.html">
+          <div class="search-btn">Search</div>
+        </a>
+      </form>
+    </header>
+    <div class="mobile-search-wrap">
+      <form class="search-form">
+        <input class="mobile-search-box" type="text" placeholder="What do you search for?">
+        <a href="search-results.html">
+          <div class="mobile-search-btn">Search</div>
+        </a>
+      </form>
+    </div>
+      <!-- hot ads section start -->
+      <div class="hot-ad-wrap">
+        <a href="#" class="left-arrow-pink ha-arrow"></a>
+        <div class="hot-ad">
+          <h3 class="ha-title">HOT ADS</h3>
+          <div>
+            <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593294185.jpg" alt="">        
+          </div>
+          <div class="ha-info">
+            <h3 class="text-pink">Greenlights</h3>
+            <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="author">By <a class="author-link" href="#">Matthew McConaug</a></div>
+            <div class="duration">Duration: 6 h 42 min</div>
+            <div class="btn-wrap">
+              <button class="ha-btn-left">$20</button>
+              <button class="purchase-btn ha-btn-right"><span class="purchase-icon"></span>Purchase</button>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="right-arrow-pink ha-arrow"></a>
+      </div>
+    <main>
+      <!-- section 1 start -->
+      <div class="section-header">
+        <div class="title-icon"></div>
+        <h2>Best Sellers</h2>        
+      </div>
+      <section>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593294185.jpg" alt="">
+          <h3 class="m-adjust">Greenlights</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Matthew McConaug</a></div>
+          <div class="duration m-adjust">Duration: 6 h 42 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $20
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525633723.jpg" alt="">
+          <h3 class="m-adjust">A Promised Land</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Barack Obama</a></div>
+          <div class="duration m-adjust">Duration: 29 h 10 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $40
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525637141.jpg" alt="">
+          <h3 class="m-adjust">The Vanishing Half: A Novel</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Brit Bennett</a></div>
+          <div class="duration m-adjust">Duration: 11 h 34 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart m-adjust"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781797100548.jpg" alt="">
+          <h3 class="m-adjust">Think Like a Monk: Train Your Mind</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Jay Shetty</a></div>
+          <div class="duration m-adjust">Duration: 10 h 48 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $24.99
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593156070.jpg" alt="">
+          <h3 class="m-adjust">Untamed</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Glennon Doyle</a></div>
+          <div class="duration m-adjust">Duration: 8 h 22 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593339800.jpg" alt="">
+          <h3 class="m-adjust">Caste (Oprah's Book Club)</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Isabel Wilkerson</a></div>
+          <div class="duration m-adjust">Duration: 14 h 26 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593168554.jpg" alt="">
+          <h3 class="m-adjust">A Time for Mercy</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">John Grisham</a></div>
+          <div class="duration m-adjust">Duration: 19 h 59 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $25
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781977335111.jpg" alt="">
+          <h3 class="m-adjust">Where Children Run</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Karen Emilson</a></div>
+          <div class="duration m-adjust">Duration: 16 h 20 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $29.99
+          </div>
+        </article>
+      </section>
+      <!-- section 2 start -->
+      <div class="section-header">
+        <div class="title-icon"></div>
+        <h2>Fiction & Literature</h2>        
+      </div>
+      <section>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593294185.jpg" alt="">
+          <h3 class="m-adjust">Greenlights</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Matthew McConaug</a></div>
+          <div class="duration m-adjust">Duration: 6 h 42 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $20
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525633723.jpg" alt="">
+          <h3 class="m-adjust">A Promised Land</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Barack Obama</a></div>
+          <div class="duration m-adjust">Duration: 29 h 10 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $40
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525637141.jpg" alt="">
+          <h3 class="m-adjust">The Vanishing Half: A Novel</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Brit Bennett</a></div>
+          <div class="duration m-adjust">Duration: 11 h 34 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart m-adjust"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781797100548.jpg" alt="">
+          <h3 class="m-adjust">Think Like a Monk: Train Your Mind</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Jay Shetty</a></div>
+          <div class="duration m-adjust">Duration: 10 h 48 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $24.99
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593156070.jpg" alt="">
+          <h3 class="m-adjust">Untamed</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Glennon Doyle</a></div>
+          <div class="duration m-adjust">Duration: 8 h 22 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593339800.jpg" alt="">
+          <h3 class="m-adjust">Caste (Oprah's Book Club)</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Isabel Wilkerson</a></div>
+          <div class="duration m-adjust">Duration: 14 h 26 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593168554.jpg" alt="">
+          <h3 class="m-adjust">A Time for Mercy</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">John Grisham</a></div>
+          <div class="duration m-adjust">Duration: 19 h 59 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $25
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781977335111.jpg" alt="">
+          <h3 class="m-adjust">Where Children Run</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Karen Emilson</a></div>
+          <div class="duration m-adjust">Duration: 16 h 20 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $29.99
+          </div>
+        </article>
+      </section>
+      <!-- section 3 start -->
+      <div class="section-header">
+        <div class="title-icon"></div>
+        <h2>Science & Technology</h2>        
+      </div>
+      <section>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593294185.jpg" alt="">
+          <h3 class="m-adjust">Greenlights</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Matthew McConaug</a></div>
+          <div class="duration m-adjust">Duration: 6 h 42 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $20
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525633723.jpg" alt="">
+          <h3 class="m-adjust">A Promised Land</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Barack Obama</a></div>
+          <div class="duration m-adjust">Duration: 29 h 10 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $40
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780525637141.jpg" alt="">
+          <h3 class="m-adjust">The Vanishing Half: A Novel</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Brit Bennett</a></div>
+          <div class="duration m-adjust">Duration: 11 h 34 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart m-adjust"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781797100548.jpg" alt="">
+          <h3 class="m-adjust">Think Like a Monk: Train Your Mind</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#"> Jay Shetty</a></div>
+          <div class="duration m-adjust">Duration: 10 h 48 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $24.99
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593156070.jpg" alt="">
+          <h3 class="m-adjust">Untamed</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Glennon Doyle</a></div>
+          <div class="duration m-adjust">Duration: 8 h 22 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593339800.jpg" alt="">
+          <h3 class="m-adjust">Caste (Oprah's Book Club)</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Isabel Wilkerson</a></div>
+          <div class="duration m-adjust">Duration: 14 h 26 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $22.50
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9780593168554.jpg" alt="">
+          <h3 class="m-adjust">A Time for Mercy</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">John Grisham</a></div>
+          <div class="duration m-adjust">Duration: 19 h 59 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $25
+          </div>
+        </article>
+        <article class="card only-on-mobile">
+          <img class="thumbnail" src="https://covers.audiobooks.com/images/covers/full/9781977335111.jpg" alt="">
+          <h3 class="m-adjust">Where Children Run</h3>
+          <div class="author m-adjust">By <a class="author-link" href="#">Karen Emilson</a></div>
+          <div class="duration m-adjust">Duration: 16 h 20 min</div>
+          <div class="price m-adjust">
+            <div class="add to cart"></div>
+            $29.99
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-nav">
+        <div class="footer-link-container">
+          <h4>Popular Content</h4>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Audiobooks.com's Best Audiobooks of 2020</a></li>
+            <li><a class="footer-link" href="#">Most Anticipated Upcoming Books</a></li>
+            <li><a class="footer-link" href="#">Member Favorite Narrators</a></li>
+            <li><a class="footer-link" href="#">New York Times Best Sellers</a></li>
+            <li><a class="footer-link" href="#">Most Inspiring Business Memoirs</a></li>
+            <li><a class="footer-link" href="#">Mindfulness & Mental Health</a></li>
+            <li><a class="footer-link" href="#">Time's Must-Read Books of 2020</a></li>
+            <li><a class="footer-link" href="#">Perfect First Listens</a></li>
+          </ul>
+        </div>
+        <div class="footer-link-container">
+          <h4>Popular Authors</h4>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Barack Obama</a></li>
+            <li><a class="footer-link" href="#">Ernest Cline</a></li>
+            <li><a class="footer-link" href="#">Brit Bennett</a></li>
+            <li><a class="footer-link" href="#">John Grisham</a></li>
+            <li><a class="footer-link" href="#">Matthew McConaughey</a></li>
+            <li><a class="footer-link" href="#">Lisa Jewell</a></li>
+            <li><a class="footer-link" href="#">Brandon Sanderson</a></li>
+            <li><a class="footer-link" href="#">Lee Child</a></li>
+          </ul>
+        </div>
+        <div class="footer-link-container">
+          <h4>Popular Titles</h4>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">A Promised Land</a></li>
+            <li><a class="footer-link" href="#">Greenlights</a></li>
+            <li><a class="footer-link" href="#">Think Like a Monk</a></li>
+            <li><a class="footer-link" href="#">The Vanishing Half</a></li>
+            <li><a class="footer-link" href="#">Caste</a></li>
+            <li><a class="footer-link" href="#">Ready Player Two</a></li>
+            <li><a class="footer-link" href="#">Dolly Parton, Songteller</a></li>
+            <li><a class="footer-link" href="#">Untamed</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="footer-logo-container">
+          <div class="footer-logo-svg"></div>
+          <a href="#">ABstore</a>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="copyright">
+        © 2021 abstore.com. All rights Reserved.
+        <br>
+        Original Design by Mohammed Awad
+      </div>
+    </footer>
+  </body>
+</html>
