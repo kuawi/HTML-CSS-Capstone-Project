@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-You can see the [live demo here](https://kuawi.github.io/HTML-CSS-Capstone-Project/)
+You can see the [live demo here](https://kuawi.github.io/mv-store-responsive-frontend/)
 
 ## Authors
 
